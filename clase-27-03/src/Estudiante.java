@@ -27,14 +27,6 @@ public class Estudiante implements Comparable<Estudiante>{
         return nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
-
-    public int getAnioIngreso() {
-        return anioIngreso;
-    }
-
     public double getPromedioGeneral() {
         return promedioGeneral;
     }
@@ -44,5 +36,4 @@ public class Estudiante implements Comparable<Estudiante>{
         return this.nombre.compareTo(otroAlumno.nombre);
     }
 
-    //comparador
-}
+
